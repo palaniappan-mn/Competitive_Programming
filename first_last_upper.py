@@ -22,7 +22,7 @@ def first_last_upper(str):
         elif counter == length-1:
           final_word += char.upper()
         else:
-          final_word += char
+          final_word += char.lower()
         counter += 1
       result.append(final_word)
     
