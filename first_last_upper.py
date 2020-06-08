@@ -6,7 +6,7 @@ input: 'i am palaniappan'
 output: 'I AM PalaniappaN'
 '''
 
-def test(str):
+def first_last_upper(str):
   word_list = str.split(" ") #word_list[i,am,good,in,coding]
   result = []
   for word in word_list:
