@@ -51,8 +51,7 @@ class LinkedList:
                 elif pointer.next.val == val:
                     pointer.next = pointer.next.next
                     return print("Node Deleted")
-                else:
-                    pointer = pointer.next
+            pointer = pointer.next
 
 
 
