@@ -26,3 +26,14 @@ def flatten_json(input_json):
     return result
 
 print(flatten_json(input_json))
+
+"""
+Expected Output:
+{
+"test_id": "50",
+"test_name": "Amazon",
+"schedule_test_interval":"30",
+"schedule_day": "Tuesday",
+"schedule_level2_level1":"test"
+}
+"""
