@@ -18,7 +18,7 @@ def flatten_json(input_json):
             if type(nested_json[key]) is not dict:
                 result[prefix+key] = nested_json[key]
             else:
-                prefix = key+'_'
+                prefix += key+'_'
                 flatten_recursively(nested_json[key], prefix)
 
     flatten_recursively(input_json)
